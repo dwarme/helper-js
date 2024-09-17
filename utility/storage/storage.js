@@ -1,5 +1,5 @@
-import CookieStorage from './cookie-storage.js';
-import MemoryStorage from "./memory-storage.js";
+import CookieStorage from './cookie-storage';
+import MemoryStorage from "./memory-storage";
 
 /**
  * StorageSingleton
