@@ -1,5 +1,5 @@
 /**
- * @class CookieStorageHelper
+ * @class CookieStorage
  *
  * This class provides utility functions for managing browser cookies, such as checking support for cookies,
  * setting, retrieving, and removing cookies. It offers methods that simplify working with cookies, handling
@@ -10,7 +10,7 @@
  *
  * @author Daouda Warme
  * */
-export default class CookieStorageHelper {
+export default class CookieStorage {
 
     /**
      * returns if cookies are supported
