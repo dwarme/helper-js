@@ -4,6 +4,8 @@ export default class HTMLUpdateUtility {
      * The new node is inserted as a previous sibling to the old node, the old node is hidden, and then the old node is removed.
      *
      * The function currently uses a double buffer approach, but this should be replaced by a view transition once it is more widely supported https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API
+     *
+     * @author Daouda Warme
      */
     static viewTransition(oldNode, newContent, preProcessCallbacks = [], postProcessCallbacks = []) {
         preProcessCallbacks?.forEach((callback) => callback(newContent));
